@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Toldo-Vela LP v1.5 -->
+<!-- Toldo-Vela LP v1.6 -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -16,7 +16,7 @@
   <link rel="icon" type="image/webp" href="assets/img/img_not_found.webp">
   <link rel="apple-touch-icon" href="assets/img/img_not_found.webp">
   <link rel="canonical" href="https://toldo-vela.com/">
-  <meta name="theme-color" content="#C74B00">
+  <meta name="theme-color" content="#B54300">
   <meta name="robots" content="index,follow">
 
   <!-- Open Graph -->
@@ -34,13 +34,19 @@
   <meta name="twitter:image" content="https://toldo-vela.com/assets/img/bg_01_desktop_toldovela.webp">
 
   <link rel="preload" as="image" href="assets/img/bg_01_desktop_toldovela.webp" type="image/webp">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="font" href="assets/fonts/inter-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="assets/fonts/inter-latin-ext.woff2" type="font/woff2" crossorigin>
 
   <!-- Critical CSS (above-the-fold) -->
   <style>
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:optional;src:url(assets/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:optional;src:url(assets/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:optional;src:url(assets/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:optional;src:url(assets/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:optional;src:url(assets/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:optional;src:url(assets/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:optional;src:url(assets/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:optional;src:url(assets/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
     *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
     body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:#212121;background:#fff;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
     img{max-width:100%;height:auto;display:block}
@@ -54,19 +60,18 @@
     .hero__overlay{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(48,84,134,.4) 0%,transparent 60%),linear-gradient(180deg,rgba(16,16,16,.75) 0%,rgba(16,16,16,.6) 50%,rgba(16,16,16,.8) 100%)}
     .hero__content{position:relative;z-index:2;max-width:1100px;text-align:center;margin:0 auto}
     h1{font-size:2em}
-    .hero__badge{display:inline-block;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#C74B00;background:rgba(199,75,0,.08);padding:8px 20px;border-radius:60px;margin-bottom:16px}
+    .hero__badge{display:inline-block;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#B54300;background:rgba(181,67,0,.08);padding:8px 20px;border-radius:60px;margin-bottom:16px}
     .hero__title{font-size:clamp(1.85rem,4.2vw,3rem);font-weight:700;color:#fff;line-height:1.2;margin-bottom:24px;letter-spacing:-.02em}
     .hero__subtitle{font-size:clamp(.95rem,1.8vw,1.2rem);color:rgba(255,255,255,.75);max-width:720px;margin:0 auto 40px;line-height:1.7}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:.95rem;border:none;border-radius:60px;cursor:pointer;white-space:nowrap;position:relative;overflow:hidden;text-decoration:none}
-    .btn--primary{background:#C74B00;color:#fff;padding:18px 44px}
+    .btn--primary{background:#B54300;color:#fff;padding:18px 44px}
     .btn--lg{font-size:1.05rem;padding:20px 48px}
     .header__trust{display:flex;align-items:center;gap:24px}
     .header__trust-item{display:flex;align-items:center;gap:6px;font-size:.78rem;color:#595959;font-weight:500}
-    .btn--header{background:#C74B00;color:#fff;padding:12px 28px;font-size:.85rem;border-radius:60px;text-decoration:none;font-weight:600}
+    .btn--header{background:#B54300;color:#fff;padding:12px 28px;font-size:.85rem;border-radius:60px;text-decoration:none;font-weight:600}
   </style>
 
-  <link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">

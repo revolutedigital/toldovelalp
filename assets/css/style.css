@@ -7,9 +7,9 @@
 h1 { font-size: 2em; }
 
 :root {
-  --orange: #C74B00;
-  --orange-dark: #a53f00;
-  --orange-glow: rgba(199,75,0,.3);
+  --orange: #B54300;
+  --orange-dark: #933700;
+  --orange-glow: rgba(181,67,0,.3);
   --blue-dark: #305486;
   --blue-light: #337ABC;
   --blue-glow: rgba(51,122,188,.25);
@@ -64,7 +64,7 @@ ul { list-style: none; }
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--orange);
-  background: rgba(199,75,0,.08);
+  background: rgba(181,67,0,.08);
   padding: 8px 20px;
   border-radius: 60px;
   margin-bottom: 16px;
