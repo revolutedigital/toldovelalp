@@ -21,7 +21,7 @@
   --gray-100: #f7f8fa;
   --white: #ffffff;
   --red-muted: #c0392b;
-  --green-muted: #27ae60;
+  --green-muted: #1a7a4c;
   --font: 'Inter', system-ui, -apple-system, sans-serif;
   --radius: 16px;
   --radius-sm: 10px;
@@ -1031,10 +1031,14 @@ ul { list-style: none; }
   letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--green-muted);
-  background: rgba(39,174,96,.08);
+  background: rgba(26,122,76,.08);
   padding: 6px 14px;
   border-radius: 60px;
   margin-bottom: 12px;
+}
+.testimonial-card__badge-icon {
+  flex-shrink: 0;
+  color: var(--green-muted);
 }
 .testimonial-card__author strong {
   display: block;
