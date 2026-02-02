@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!-- Toldo-Vela LP v1.3 -->
+<!-- Toldo-Vela LP v1.4 -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <!-- Google Tag Manager (deferred for performance) -->
+  <script>window.addEventListener('load',function(){setTimeout(function(){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TR6993LK');</script>
+  })(window,document,'script','dataLayer','GTM-TR6993LK')},3500)});</script>
   <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Coberturas tensionadas premium com engenharia aplicada. +400 projetos entregues, tecidos Serge Ferrari, garantia de até 15 anos. Solicite orçamento via WhatsApp.">
@@ -16,7 +16,7 @@
   <link rel="icon" type="image/webp" href="assets/img/img_not_found.webp">
   <link rel="apple-touch-icon" href="assets/img/img_not_found.webp">
   <link rel="canonical" href="https://toldo-vela.com/">
-  <meta name="theme-color" content="#FC5E00">
+  <meta name="theme-color" content="#E45500">
   <meta name="robots" content="index,follow">
 
   <!-- Open Graph -->
@@ -55,7 +55,8 @@
     .hero__content{position:relative;z-index:2;max-width:1100px;text-align:center;margin:0 auto}
   </style>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -99,7 +100,7 @@
   <header class="header" id="header">
     <div class="container header__inner">
       <a href="#" class="header__logo">
-        <img src="assets/img/logotipo_300_toldovela.webp" alt="Toldo-Vela" width="180" height="55" loading="eager">
+        <img src="assets/img/logotipo_300_toldovela.webp" alt="Toldo-Vela" width="180" height="55" loading="eager" fetchpriority="high">
       </a>
       <div class="header__trust">
         <span class="header__trust-item">

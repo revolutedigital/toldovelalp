@@ -6,9 +6,9 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --orange: #FC5E00;
+  --orange: #E45500;
   --orange-dark: #d94f00;
-  --orange-glow: rgba(252,94,0,.3);
+  --orange-glow: rgba(228,85,0,.3);
   --blue-dark: #305486;
   --blue-light: #337ABC;
   --blue-glow: rgba(51,122,188,.25);
@@ -16,7 +16,7 @@
   --dark: #1a1a1a;
   --gray-900: #212121;
   --gray-700: #424242;
-  --gray-500: #757575;
+  --gray-500: #595959;
   --gray-300: #bdbdbd;
   --gray-100: #f7f8fa;
   --white: #ffffff;
@@ -63,7 +63,7 @@ ul { list-style: none; }
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--orange);
-  background: rgba(252,94,0,.08);
+  background: rgba(228,85,0,.08);
   padding: 8px 20px;
   border-radius: 60px;
   margin-bottom: 16px;
@@ -321,7 +321,7 @@ ul { list-style: none; }
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.6);
   font-size: .7rem;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -419,11 +419,11 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 8px;
-  opacity: .55;
+  opacity: 1;
   filter: none;
-  color: var(--gray-700);
+  color: var(--gray-500);
 }
-.trust-logos__item--badge:hover { opacity: .8; }
+.trust-logos__item--badge:hover { opacity: .9; }
 .trust-logos__item--badge svg { color: var(--blue-dark); flex-shrink: 0; }
 .trust-logos__item--badge span {
   font-size: .7rem;
@@ -1356,7 +1356,7 @@ ul { list-style: none; }
 .footer__logo:hover { opacity: .8; }
 .footer__copy {
   font-size: .8rem;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.6);
 }
 
 /* --- WHATSAPP FLOAT --- */
