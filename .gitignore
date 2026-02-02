@@ -1,0 +1,18 @@
+# Arquivos de trabalho e materiais internos
+materiais/
+index2.html
+.claude/
+
+# Imagens não utilizadas na página
+assets/img/Galeria/
+assets/img/banner-citel.webp
+assets/img/banner_01_toldovela.webp
+assets/img/banner_06_toldovela.webp
+assets/img/banner_materiais.webp
+assets/img/efeito_paragrafo.webp
+assets/img/fundo_empresa.webp
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
