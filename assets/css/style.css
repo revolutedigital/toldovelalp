@@ -1431,6 +1431,7 @@ ul { list-style: none; }
   .header__logo img { height: 36px; }
   .header__trust { display: none; }
   .btn--header { padding: 10px 20px; font-size: .8rem; min-height: 44px; }
+  .btn { white-space: normal; text-align: center; }
 
   .hero { padding: 130px 20px 100px; min-height: 100dvh; }
   .hero__badge { font-size: .65rem; padding: 8px 18px; }
