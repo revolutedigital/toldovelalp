@@ -940,6 +940,20 @@ ul { list-style: none; }
 .gallery__item:hover .gallery__label {
   background: rgba(252,94,0,.85);
 }
+.gallery__highlight {
+  background: linear-gradient(135deg, rgba(48,84,134,.06) 0%, rgba(252,94,0,.06) 100%);
+  border: 1px solid rgba(48,84,134,.12);
+  border-radius: var(--radius);
+  padding: 20px 28px;
+  margin-bottom: 40px;
+  font-size: .95rem;
+  color: var(--gray-700);
+  line-height: 1.65;
+  text-align: left;
+}
+.gallery__highlight strong {
+  color: var(--orange);
+}
 
 /* --- TESTIMONIALS --- */
 .testimonials {
