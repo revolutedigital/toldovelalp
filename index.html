@@ -424,21 +424,57 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="display:inline;vertical-align:middle;margin-right:6px"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Desenvolvemos projetos em <strong>formatos especiais</strong> &mdash; como p&eacute;talas de flores, folhas e formas org&acirc;nicas &mdash; para parques de divers&atilde;o, shoppings e espa&ccedil;os diferenciados.
       </p>
-      <div class="gallery__grid">
-        <div class="gallery__item gallery__item--large">
-          <img src="assets/img/1770312356561.webp" alt="Cobertura tensionada em formato de p&eacute;talas - Toldo-Vela" width="800" height="500" loading="lazy">
+      <div class="bento-grid">
+        <div class="bento-item bento-item--wide" data-lightbox="assets/img/1770312356561.webp">
+          <img src="assets/img/1770312356561.webp" alt="Cobertura em formato de p&eacute;talas" loading="lazy">
         </div>
-        <div class="gallery__item">
-          <img src="assets/img/1770312358194.webp" alt="Toldos vela coloridos - Toldo-Vela" width="400" height="300" loading="lazy">
+        <div class="bento-item bento-item--tall" data-lightbox="assets/img/1770312358194.webp">
+          <img src="assets/img/1770312358194.webp" alt="Toldos vela coloridos" loading="lazy">
         </div>
-        <div class="gallery__item">
-          <img src="assets/img/banner_02_toldovela.webp" alt="Projeto Toldo-Vela" width="400" height="300" loading="lazy">
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_001.webp">
+          <img src="assets/img/projetos/img_portfolio_001.webp" alt="Cobertura tensionada piscina" loading="lazy">
         </div>
-        <div class="gallery__item">
-          <img src="assets/img/banner_03_toldovela.webp" alt="Projeto Toldo-Vela" width="400" height="300" loading="lazy">
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_002.webp">
+          <img src="assets/img/projetos/img_portfolio_002.webp" alt="Projeto Toldo-Vela" loading="lazy">
         </div>
-        <div class="gallery__item">
-          <img src="assets/img/banner_04_toldovela.webp" alt="Projeto Toldo-Vela" width="400" height="300" loading="lazy">
+        <div class="bento-item bento-item--wide" data-lightbox="assets/img/projetos/img_portfolio_003.webp">
+          <img src="assets/img/projetos/img_portfolio_003.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_004.webp">
+          <img src="assets/img/projetos/img_portfolio_004.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_005.webp">
+          <img src="assets/img/projetos/img_portfolio_005.webp" alt="Cobertura garagem" loading="lazy">
+        </div>
+        <div class="bento-item bento-item--tall" data-lightbox="assets/img/projetos/img_portfolio_015.webp">
+          <img src="assets/img/projetos/img_portfolio_015.webp" alt="Playground coberto" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_006.webp">
+          <img src="assets/img/projetos/img_portfolio_006.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_007.webp">
+          <img src="assets/img/projetos/img_portfolio_007.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item bento-item--wide" data-lightbox="assets/img/projetos/img_portfolio_008.webp">
+          <img src="assets/img/projetos/img_portfolio_008.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_009.webp">
+          <img src="assets/img/projetos/img_portfolio_009.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_010.webp">
+          <img src="assets/img/projetos/img_portfolio_010.webp" alt="Toldos coloridos" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_011.webp">
+          <img src="assets/img/projetos/img_portfolio_011.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_012.webp">
+          <img src="assets/img/projetos/img_portfolio_012.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_013.webp">
+          <img src="assets/img/projetos/img_portfolio_013.webp" alt="Projeto Toldo-Vela" loading="lazy">
+        </div>
+        <div class="bento-item" data-lightbox="assets/img/projetos/img_portfolio_014.webp">
+          <img src="assets/img/projetos/img_portfolio_014.webp" alt="Projeto Toldo-Vela" loading="lazy">
         </div>
       </div>
       <div class="section-cta">
@@ -450,6 +486,17 @@
       </div>
     </div>
   </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Fechar">&times;</button>
+    <button class="lightbox__prev" aria-label="Anterior">&#10094;</button>
+    <button class="lightbox__next" aria-label="Pr&oacute;xima">&#10095;</button>
+    <div class="lightbox__content">
+      <img src="" alt="Projeto Toldo-Vela" id="lightbox-img">
+    </div>
+    <div class="lightbox__counter"><span id="lightbox-current">1</span> / <span id="lightbox-total">17</span></div>
+  </div>
 
   <!-- TESTIMONIALS -->
   <section class="testimonials" id="depoimentos">
