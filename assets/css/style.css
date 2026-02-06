@@ -412,10 +412,13 @@ ul { list-style: none; }
   filter: grayscale(0);
 }
 .trust-logos__item img {
-  height: 32px;
   width: auto;
   object-fit: contain;
 }
+.trust-logos__item img[alt="Gale"] { height: 32px; }
+.trust-logos__item img[alt="Serge Ferrari"] { height: 52px; }
+.trust-logos__item img[alt="Eriva"] { height: 48px; }
+.trust-logos__item img[alt="Gore Tenara"] { height: 60px; }
 .trust-logos__item--badge {
   display: flex;
   align-items: center;
@@ -1594,7 +1597,10 @@ ul { list-style: none; }
 
   .trust-logos__inner { flex-direction: column; gap: 12px; text-align: center; }
   .trust-logos__grid { justify-content: center; }
-  .trust-logos__item img { height: 26px; }
+  .trust-logos__item img[alt="Gale"] { height: 26px; }
+  .trust-logos__item img[alt="Serge Ferrari"] { height: 42px; }
+  .trust-logos__item img[alt="Eriva"] { height: 38px; }
+  .trust-logos__item img[alt="Gore Tenara"] { height: 48px; }
 
   .proof-bar__inner { flex-wrap: wrap; gap: 20px; }
   .proof-bar__divider { display: none; }
